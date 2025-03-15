@@ -58,7 +58,7 @@ figcaption {
     figure img{
         border-radius: 50%;
     }
-    figure: :last-child{
+    figure:last-child{
         grid-column: span 2;
     }
 }
@@ -70,7 +70,7 @@ figcaption {
     figure img{
         border-radius: 0;
     }
-    figure: :nth-child(3n){
+    figure:nth-child(3n){
         grid-column: span 2;
     }
 }
